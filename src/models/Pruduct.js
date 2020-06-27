@@ -18,3 +18,5 @@ const ProductSchema = new mongoose.Schema({
     default: Date.now
   }
 })
+
+mongoose.model('Product', ProductSchema)
